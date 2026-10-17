@@ -132,6 +132,7 @@ Major programs and consortia advancing rare disease research through data sharin
 - [JARDIN](https://jardin-ern.eu/) - EU Joint Action (2024-2027) integrating the European Reference Networks into national health systems. Its data management work package addresses ERN registry interoperability and is defining a rare disease dataset for EHRs, aligned with the European EHR exchange format (EEHRxF) and ORPHAcodes.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
+- [C-Path](https://c-path.org/) - Critical Path Institute, a nonprofit that brings together regulators, industry, and academia to accelerate drug development for diseases with unmet needs, including dedicated rare disease programmes such as Duchenne muscular dystrophy and polycystic kidney disease.
 
 ## Patient Registries
 
