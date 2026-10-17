@@ -36,6 +36,7 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [GARD](https://rarediseases.info.nih.gov/) - NIH Genetic and Rare Diseases Information Center providing patient-accessible disease summaries, inheritance patterns, and links to clinical resources for over 7,000 rare diseases.
 - [GeneReviews](https://www.ncbi.nlm.nih.gov/books/NBK1116/) - Expert-authored, peer-reviewed clinical descriptions of genetic conditions including diagnosis, management, and genetic counseling. The clinical reference standard for inherited disorders.
 - [MalaCards](https://www.malacards.org/) - Integrates rare disease information from 74 sources into unified disease cards, useful for exploring disease relationships and annotations.
+- [GenCC](https://thegencc.org/) - The Gene Curation Coalition, a collaborative resource that standardises gene-disease validity classifications from multiple genetic testing organisations and research centres worldwide.
 - [DECIPHER](https://www.deciphergenomics.org/) - Database of chromosomal imbalance and phenotype in humans. Contains over 60,000 patient records linking genomic variants to rare disease phenotypes, critical for CNV interpretation.
 - [Open Targets Platform](https://platform.opentargets.org/) - Integrates genetics, genomics, and drug data to identify therapeutic targets. Includes rare disease associations from OMIM, Orphanet, and ClinVar. [Data downloads](https://platform.opentargets.org/downloads).
 - [FDA Orphan Drug Designations](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/) - Searchable database of 5,000+ orphan drug designations since 1983, tracking which rare diseases have drugs in development or approved.
@@ -56,6 +57,7 @@ Standards specifically designed for or widely adopted by the rare disease commun
 - [Phenopackets](http://phenopackets.org/) - GA4GH standard for sharing patient phenotype and disease information. Adopted by rare disease diagnostic pipelines and the [Matchmaker Exchange](https://www.matchmakerexchange.org/). [Schema](https://github.com/phenopackets/phenopacket-schema).
 - [GA4GH Beacon](https://beacon-project.io/) - Protocol for querying genomic variant presence across federated datasets. Enables privacy-preserving rare variant discovery across institutions.
 - [RD-CDM](https://rd-cdm.readthedocs.io/) - Rare Disease Common Data Model extending ERDRI-CDS for international registry harmonization, compatible with Phenopackets and FHIR.
+- [Clinical And Registry Entries Semantic Model (CARE-SM)](https://care-sm.readthedocs.io/en/latest/) - Semantic data model for representing a set of common data elements for rare diseases registration. [GitHub](https://github.com/CARE-SM/CARE-Semantic-Model).
 
 ## Variant & Genomic Data
 
@@ -98,6 +100,9 @@ Open-source tools developed for or widely used in rare disease analysis.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
 - [HPOExplorer](https://github.com/neurogenomics/HPOExplorer) - R package for importing, annotating, filtering, and visualising the Human Phenotype Ontology (HPO) at multiple biological levels including diseases, phenotypes, and genes.
+- [MSTExplorer](https://github.com/neurogenomics/MSTExplorer) - R package that identifies, prioritises, and visualises cell-type-specific gene therapy targets across the phenome by analysing associations between diseases, phenotypes, cell types, and genes.
+- [Rare Disease Celltyping Portal](https://neurogenomics-ukdri.dsi.ic.ac.uk/) - Interactive portal for exploring cell-type associations across rare diseases, linking phenotypes to cell types using single-cell transcriptomic data.
+- [DeepRare](https://github.com/MAGIC-AI4Med/DeepRare) - AI-powered agentic diagnostic system that processes symptoms, genetic data, and medical history to generate ranked rare disease diagnoses with transparent reasoning chains, integrating 40+ specialized tools and outperforming traditional methods on benchmarks.
 
 ## Research Platforms & Initiatives
 
@@ -147,6 +152,7 @@ Organizations representing patients, driving research priorities, and providing 
 - [SWAN UK](https://geneticalliance.org.uk/support-and-information/swan-uk-syndromes-without-a-name/) - Support network for families of children with Syndromes Without A Name (undiagnosed genetic conditions).
 - [CORD](https://www.raredisorders.ca/) - Canadian Organization for Rare Disorders providing patient support and advocating for rare disease policy in Canada.
 - [Rare Diseases South Africa](https://www.rarediseases.co.za/) - South African rare disease information and support hub.
+- [Rare Disease UK](http://www.raredisease.org.uk/) - National campaign by Genetic Alliance UK representing and uniting the rare disease community across the United Kingdom.
 
 ## Contributing
 
