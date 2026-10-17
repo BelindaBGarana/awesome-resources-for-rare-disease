@@ -23,6 +23,21 @@ These are valuable tools but not rare disease-specific:
 | InterMine | General data warehouse framework |
 | GA4GH | The umbrella genomics standards organization; not RD-specific (the GA4GH Rare Disease Community is included separately) |
 
+## General European Health Data & Research Infrastructures
+
+EU infrastructures that rare disease work builds on (many are named in the EURORDIS European Blueprint for Rare Diseases), but which serve all of health or research:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| European Health Data Space (EHDS) | General legal framework for primary and secondary use of health data; no RD-specific provisions |
+| MyHealth@EU / eHDSI | General cross-border exchange of patient summaries and prescriptions; carries ORPHAcodes but is not RD-specific |
+| EEHRxF | General European EHR exchange format; RD-relevant only via ORPHAcodes in the Patient Summary (the JARDIN RD dataset is included separately) |
+| Xt-EHR | General Joint Action on EHR exchange and telemedicine |
+| DARWIN EU | EMA's general real-world evidence network; covers all medicines |
+| BBMRI-ERIC | General biobanking research infrastructure |
+| ECRIN | General clinical trials research infrastructure |
+| EATRIS | General translational medicine research infrastructure |
+
 ## General Genomics Resources
 
 Useful for genomics broadly, but not rare disease-focused:

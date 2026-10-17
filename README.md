@@ -76,6 +76,7 @@ Programmatic access points for rare disease data integration.
 - [Orphadata](https://www.orphadata.com/) - Bulk downloads of Orphanet data including disease classifications, gene associations, epidemiology, and phenotype annotations in XML and RDF formats.
 - [Monarch API](https://api-v3.monarchinitiative.org/v3/docs) - REST API for querying integrated rare disease data: disease-gene associations, phenotype profiles, and cross-species mappings.
 - [MedGen](https://www.ncbi.nlm.nih.gov/medgen/) - NCBI's portal aggregating disease concepts from OMIM, Orphanet, HPO, Mondo, and ClinVar into unified identifiers. [FTP downloads](https://ftp.ncbi.nlm.nih.gov/pub/medgen/).
+- [ERDERA Virtual Platform](https://vp.erdera.org/) - Federated network of FAIR rare disease resources (registries, biobanks, genomic-phenomic repositories, catalogues, knowledge bases) with a discovery portal that queries all participating resources in real time while data stays with its holder. Originally built under EJP RD; part of the [ERDERA Data Hub](https://erdera.org/data-hub/).
 
 ## Clinical & Diagnostic Resources
 
@@ -89,6 +90,7 @@ Resources supporting rare disease diagnosis and patient matching.
 - [AMELIE](https://amelie.stanford.edu/) - Automatic literature-based variant interpretation that extracts gene-phenotype relationships from publications.
 - [Face2Gene](https://www.face2gene.com/) - AI-powered facial analysis for recognizing dysmorphic features associated with genetic syndromes. Aids diagnosis of syndromic rare diseases.
 - [Undiagnosed Diseases Network](https://undiagnosed.hms.harvard.edu/) - NIH-funded network of clinical sites bringing together experts to diagnose patients who have eluded diagnosis despite extensive workup.
+- [ERICA PROMs Repository](https://erica-rd.eu/work-packages/patient-centred-research/proms-repository/) - Central repository of patient-reported outcome measures (PROMs) and other clinical outcome assessments relevant to rare diseases, built by Orphanet, Mapi Research Trust, and ERN EuroBloodNet with input from the ERNs. Links through to PROQOLID for detailed instrument information; being scaled up under ERDERA.
 - [Undiagnosed Diseases Program (UDP)](https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program) - The original NHGRI program at NIH Clinical Center that pioneered systematic approaches to solving undiagnosed rare diseases.
 
 ## Analysis Tools & Software
@@ -126,6 +128,8 @@ Major programs and consortia advancing rare disease research through data sharin
 - [IRUD](https://www.amed.go.jp/en/program/IRUD/) - Japan's Initiative on Rare and Undiagnosed Diseases with 418 participating hospitals, achieving diagnosis in 44% of 6,300+ registered pedigrees.
 - [Every Cure](https://everycure.org/) - ARPA-H funded nonprofit using AI to identify drug repurposing opportunities across 4,000 approved drugs for rare disease treatment.
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
+- [Screen4Care](https://www.screen4care.eu/) - IMI2/IHI-funded public-private-patient consortium (2021-2026) shortening the rare disease diagnostic journey through genetic newborn screening of ~25,000 infants and AI-based diagnostic tools. Produced the TREAT gene panel for selecting treatable rare diseases for genomic newborn screening.
+- [JARDIN](https://jardin-ern.eu/) - EU Joint Action (2024-2027) integrating the European Reference Networks into national health systems. Its data management work package addresses ERN registry interoperability and is defining a rare disease dataset for EHRs, aligned with the European EHR exchange format (EEHRxF) and ORPHAcodes.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
 
@@ -146,6 +150,7 @@ Organizations representing patients, driving research priorities, and providing 
 
 - [NORD](https://rarediseases.org/) - National Organization for Rare Disorders (US), the leading rare disease patient advocacy organization providing disease information, patient assistance programs, and research support.
 - [EURORDIS](https://www.eurordis.org/) - European alliance representing 1,000+ rare disease patient organizations, driving EU rare disease policy and research priorities.
+- [Rare Barometer](https://www.eurordis.org/rare-barometer/) - EURORDIS survey programme collecting the experience of people living with a rare disease and their carers (diagnostic odyssey, access to care, social participation, mental health) in up to 26 languages. Results are published as reports and fact sheets and are widely cited in EU rare disease policy.
 - [Global Genes](https://globalgenes.org/) - Patient advocacy organization providing support programs and resources for rare disease families.
 - [Rare Diseases International](https://www.rarediseasesinternational.org/) - Global alliance of national rare disease organizations advocating for rare disease recognition worldwide.
 - [Genetic Alliance](https://geneticalliance.org/) - Network connecting disease-specific advocacy organizations with researchers and policymakers.
