@@ -101,6 +101,14 @@ General bioinformatics APIs:
 | NCBI E-utilities | General NCBI access |
 | OLS4 | General ontology lookup service for all biomedical ontologies; not RD-specific |
 
+## Retired Resources
+
+Resources that were on the list but are no longer operational:
+
+| Resource | Reason for Exclusion |
+|----------|---------------------|
+| NIH GRDR | Global Rare Diseases Patient Registry Data Repository, retired in 2017; succeeded by RaDaR (listed) |
+
 ## Notes
 
 - A resource being excluded doesn't mean it's not useful - it means this list focuses specifically on rare disease resources
