@@ -31,11 +31,12 @@ Core knowledge bases providing structured data on rare diseases, their genetic c
 - [OMIM](https://omim.org/) - The authoritative compendium of human genes and Mendelian phenotypes, maintained since 1966. Contains detailed clinical synopses and molecular genetics for inherited disorders. [Downloads](https://omim.org/downloads) (requires registration).
 - [Monarch Initiative](https://monarchinitiative.org/) - Integrates rare disease data across species, linking human diseases to model organism phenotypes to support variant interpretation and therapeutic target discovery. [Data downloads](https://monarchinitiative.org/kg/downloads).
 - [Orphadata](https://www.orphadata.com/) - The downloadable data arm of Orphanet, providing gene-disease associations, epidemiology, phenotype annotations, and disease classifications in machine-readable formats (XML, JSON).
-- [HPO Annotations (HPOA)](https://hpo.jax.org/data/annotations) - Curated disease-to-phenotype associations linking rare diseases to HPO terms. Powers phenotype-driven diagnostic tools like Exomiser and LIRICAL. Freely downloadable.
+- [HPO Annotations (HPOA)](https://obophenotype.github.io/human-phenotype-ontology/annotations/introduction/) - Curated disease-to-phenotype associations linking rare diseases to HPO terms. Powers phenotype-driven diagnostic tools like Exomiser and LIRICAL. Freely downloadable.
 - [DisGeNET](https://www.disgenet.org/) - Aggregates gene-disease associations from curated sources (OMIM, ClinVar, UniProt) and text mining. Useful for exploring genetic underpinnings of rare diseases. [Downloads available](https://www.disgenet.org/downloads).
 - [GARD](https://rarediseases.info.nih.gov/) - NIH Genetic and Rare Diseases Information Center providing patient-accessible disease summaries, inheritance patterns, and links to clinical resources for over 7,000 rare diseases.
 - [GeneReviews](https://www.ncbi.nlm.nih.gov/books/NBK1116/) - Expert-authored, peer-reviewed clinical descriptions of genetic conditions including diagnosis, management, and genetic counseling. The clinical reference standard for inherited disorders.
 - [MalaCards](https://www.malacards.org/) - Integrates rare disease information from 74 sources into unified disease cards, useful for exploring disease relationships and annotations.
+- [GenCC](https://thegencc.org/) - The Gene Curation Coalition, a collaborative resource that standardises gene-disease validity classifications from multiple genetic testing organisations and research centres worldwide.
 - [DECIPHER](https://www.deciphergenomics.org/) - Database of chromosomal imbalance and phenotype in humans. Contains over 60,000 patient records linking genomic variants to rare disease phenotypes, critical for CNV interpretation.
 - [Open Targets Platform](https://platform.opentargets.org/) - Integrates genetics, genomics, and drug data to identify therapeutic targets. Includes rare disease associations from OMIM, Orphanet, and ClinVar. [Data downloads](https://platform.opentargets.org/downloads).
 - [FDA Orphan Drug Designations](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/) - Searchable database of 5,000+ orphan drug designations since 1983, tracking which rare diseases have drugs in development or approved.
@@ -56,6 +57,7 @@ Standards specifically designed for or widely adopted by the rare disease commun
 - [Phenopackets](http://phenopackets.org/) - GA4GH standard for sharing patient phenotype and disease information. Adopted by rare disease diagnostic pipelines and the [Matchmaker Exchange](https://www.matchmakerexchange.org/). [Schema](https://github.com/phenopackets/phenopacket-schema).
 - [GA4GH Beacon](https://beacon-project.io/) - Protocol for querying genomic variant presence across federated datasets. Enables privacy-preserving rare variant discovery across institutions.
 - [RD-CDM](https://rd-cdm.readthedocs.io/) - Rare Disease Common Data Model extending ERDRI-CDS for international registry harmonization, compatible with Phenopackets and FHIR.
+- [Clinical And Registry Entries Semantic Model (CARE-SM)](https://care-sm.readthedocs.io/en/latest/) - Semantic data model for representing a set of common data elements for rare diseases registration. [GitHub](https://github.com/CARE-SM/CARE-Semantic-Model).
 
 ## Variant & Genomic Data
 
@@ -74,6 +76,7 @@ Programmatic access points for rare disease data integration.
 - [Orphadata](https://www.orphadata.com/) - Bulk downloads of Orphanet data including disease classifications, gene associations, epidemiology, and phenotype annotations in XML and RDF formats.
 - [Monarch API](https://api-v3.monarchinitiative.org/v3/docs) - REST API for querying integrated rare disease data: disease-gene associations, phenotype profiles, and cross-species mappings.
 - [MedGen](https://www.ncbi.nlm.nih.gov/medgen/) - NCBI's portal aggregating disease concepts from OMIM, Orphanet, HPO, Mondo, and ClinVar into unified identifiers. [FTP downloads](https://ftp.ncbi.nlm.nih.gov/pub/medgen/).
+- [ERDERA Virtual Platform](https://vp.erdera.org/) - Federated network of FAIR rare disease resources (registries, biobanks, genomic-phenomic repositories, catalogues, knowledge bases) with a discovery portal that queries all participating resources in real time while data stays with its holder. Originally built under EJP RD; part of the [ERDERA Data Hub](https://erdera.org/data-hub/).
 
 ## Clinical & Diagnostic Resources
 
@@ -86,7 +89,9 @@ Resources supporting rare disease diagnosis and patient matching.
 - [Phen2Gene](https://phen2gene.wglab.org/) - Phenotype-to-gene prioritization using HPO terms to rank candidate genes before sequencing or for variant interpretation.
 - [AMELIE](https://amelie.stanford.edu/) - Automatic literature-based variant interpretation that extracts gene-phenotype relationships from publications.
 - [Face2Gene](https://www.face2gene.com/) - AI-powered facial analysis for recognizing dysmorphic features associated with genetic syndromes. Aids diagnosis of syndromic rare diseases.
+- [Genomics England Rare Disease Genome Analysis Guide](https://pipeline-rd-help.genomicsengland.co.uk/) - Documentation of the Genomics England bioinformatics pipeline for annotating and tiering variants likely to be disease-causing, supporting NHS clinical diagnosis of rare genetic disorders.
 - [Undiagnosed Diseases Network](https://undiagnosed.hms.harvard.edu/) - NIH-funded network of clinical sites bringing together experts to diagnose patients who have eluded diagnosis despite extensive workup.
+- [ERICA PROMs Repository](https://erica-rd.eu/work-packages/patient-centred-research/proms-repository/) - Central repository of patient-reported outcome measures (PROMs) and other clinical outcome assessments relevant to rare diseases, built by Orphanet, Mapi Research Trust, and ERN EuroBloodNet with input from the ERNs. Links through to PROQOLID for detailed instrument information; being scaled up under ERDERA.
 - [Undiagnosed Diseases Program (UDP)](https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program) - The original NHGRI program at NIH Clinical Center that pioneered systematic approaches to solving undiagnosed rare diseases.
 
 ## Analysis Tools & Software
@@ -97,6 +102,11 @@ Open-source tools developed for or widely used in rare disease analysis.
 - [LIRICAL](https://github.com/TheJacksonLaboratory/LIRICAL) - Probabilistic phenotype-driven diagnostic tool.
 - [Seqr](https://github.com/broadinstitute/seqr) - Open-source web platform for rare disease family-based variant analysis, used by the Broad Institute's rare disease genomics programs.
 - [MARRVEL](https://marrvel.org/) - IRDiRC-recognized tool integrating human variant databases with 7 model organism resources to prioritize rare variants for functional study.
+- [monarchR](https://monarch-initiative.github.io/monarchr/articles/monarchr) - R package providing programmatic access to Monarch Initiative biomedical knowledge graphs for querying genes, diseases, and phenotype relationships. [GitHub](https://github.com/monarch-initiative/monarchr).
+- [HPOExplorer](https://github.com/neurogenomics/HPOExplorer) - R package for importing, annotating, filtering, and visualising the Human Phenotype Ontology (HPO) at multiple biological levels including diseases, phenotypes, and genes.
+- [MSTExplorer](https://github.com/neurogenomics/MSTExplorer) - R package that identifies, prioritises, and visualises cell-type-specific gene therapy targets across the phenome by analysing associations between diseases, phenotypes, cell types, and genes.
+- [Rare Disease Celltyping Portal](https://neurogenomics-ukdri.dsi.ic.ac.uk/) - Interactive portal for exploring cell-type associations across rare diseases, linking phenotypes to cell types using single-cell transcriptomic data.
+- [DeepRare](https://github.com/MAGIC-AI4Med/DeepRare) - AI-powered agentic diagnostic system that processes symptoms, genetic data, and medical history to generate ranked rare disease diagnoses with transparent reasoning chains, integrating 40+ specialized tools and outperforming traditional methods on benchmarks.
 
 ## Research Platforms & Initiatives
 
@@ -119,21 +129,22 @@ Major programs and consortia advancing rare disease research through data sharin
 - [IRUD](https://www.amed.go.jp/en/program/IRUD/) - Japan's Initiative on Rare and Undiagnosed Diseases with 418 participating hospitals, achieving diagnosis in 44% of 6,300+ registered pedigrees.
 - [Every Cure](https://everycure.org/) - ARPA-H funded nonprofit using AI to identify drug repurposing opportunities across 4,000 approved drugs for rare disease treatment.
 - [SimPaThIC](https://simpathic.eu/) - EU Horizon-funded consortium of 22 partners repurposing existing drugs for rare neurological, neurometabolic, and neuromuscular disorders using patient-derived cell models.
+- [Screen4Care](https://www.screen4care.eu/) - IMI2/IHI-funded public-private-patient consortium (2021-2026) shortening the rare disease diagnostic journey through genetic newborn screening of ~25,000 infants and AI-based diagnostic tools. Produced the TREAT gene panel for selecting treatable rare diseases for genomic newborn screening.
+- [JARDIN](https://jardin-ern.eu/) - EU Joint Action (2024-2027) integrating the European Reference Networks into national health systems. Its data management work package addresses ERN registry interoperability and is defining a rare disease dataset for EHRs, aligned with the European EHR exchange format (EEHRxF) and ORPHAcodes.
 - [RDAS](https://rdas.ncats.nih.gov/) - NCATS Rare Disease Alert System integrating PubMed articles, clinical trials, and NIH grant data into a searchable knowledge graph. Users can browse and subscribe to alerts for rare diseases of interest.
 - [RARe-SOURCE](https://raresource.nih.gov/) - NCATS bioinformatics platform providing annotated data on rare diseases, associated genes, variants, and proteins, with AI-enhanced literature search and protein structure visualization to support drug discovery.
-- [NF Data Portal](https://nf.synapse.org/) - Data repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative.
-- [NF Research Tools Central](https://tools.nf.synapse.org/) - Repository of research tools for neurofibromatosis (NF) diseases hosted by Sage Bionetworks and developed in collaboration with the Gilbert Family Foundation.
-- [ALS Knowledge Portal](https://ampals.synapse.org/) - Data repository focused on Amyotrophic Lateral Sclerosis (ALS) hosted by Sage Bionetworks with community support through the AMP ALS initative.
+- [NF Data Portal](https://nf.synapse.org/) - Data repository focused on neurofibromatosis (NF) diseases hosted by Sage Bionetworks with community support through the NF Open Science Initiative. Includes [NF Research Tools Central](https://tools.nf.synapse.org/), a repository of research tools for neurofibromatosis (NF) diseases hosted by Sage Bionetworks and developed in collaboration with the Gilbert Family Foundation.
+- [ALS Knowledge Portal](https://ampals.synapse.org/) - Data repository focused on Amyotrophic Lateral Sclerosis (ALS) hosted by Sage Bionetworks with community support through the AMP ALS initiative.
+- [C-Path](https://c-path.org/) - Critical Path Institute, a nonprofit that brings together regulators, industry, and academia to accelerate drug development for diseases with unmet needs, including dedicated rare disease programmes such as Duchenne muscular dystrophy and polycystic kidney disease.
 
 ## Patient Registries
 
 Registries collecting patient-level data essential for understanding rare disease natural history and enabling clinical trials.
 
-- [NIH GRDR Program](https://grdr.hms.harvard.edu/) - Global Rare Diseases Patient Registry Data Repository providing standardized data elements for rare disease registries.
 - [TREAT-NMD](https://www.treat-nmd.org/) - Global neuromuscular disease registry network that has enabled clinical trials for DMD, SMA, and other NMDs by providing trial-ready patient populations.
 - [RD-Connect](https://rd-connect.eu/) - European platform linking over 100 rare disease registries and biobanks with genomic data for integrated research.
-- [CoRDS](https://sanfordresearch.org/cords/) - Coordination of Rare Diseases at Sanford providing registry infrastructure for rare disease patient organizations.
-- [IAMRARE Registry Program](https://ncats.nih.gov/iamrare) - NCATS program providing registry infrastructure and support for rare disease advocacy organizations.
+- [CoRDS](https://research.sanfordhealth.org/rare-disease-registry) - Coordination of Rare Diseases at Sanford providing registry infrastructure for rare disease patient organizations.
+- [IAMRARE Registry Program](https://iamrare.org/) - NORD program providing registry infrastructure and support for rare disease advocacy organizations.
 - [RaDaR](https://registries.ncats.nih.gov/) - NCATS Rare Diseases Registry Program providing guidance, best practices, and resources for developing rare disease registries.
 - [NF Registry](https://www.ctf.org/nf-registry/) - Patient-driven registry for neurofibromatosis (NF) to advance research and improve care funded by the Children's Tumor Foundation.
 
@@ -143,6 +154,7 @@ Organizations representing patients, driving research priorities, and providing 
 
 - [NORD](https://rarediseases.org/) - National Organization for Rare Disorders (US), the leading rare disease patient advocacy organization providing disease information, patient assistance programs, and research support.
 - [EURORDIS](https://www.eurordis.org/) - European alliance representing 1,000+ rare disease patient organizations, driving EU rare disease policy and research priorities.
+- [Rare Barometer](https://www.eurordis.org/rare-barometer/) - EURORDIS survey programme collecting the experience of people living with a rare disease and their carers (diagnostic odyssey, access to care, social participation, mental health) in up to 26 languages. Results are published as reports and fact sheets and are widely cited in EU rare disease policy.
 - [Global Genes](https://globalgenes.org/) - Patient advocacy organization providing support programs and resources for rare disease families.
 - [Rare Diseases International](https://www.rarediseasesinternational.org/) - Global alliance of national rare disease organizations advocating for rare disease recognition worldwide.
 - [Genetic Alliance](https://geneticalliance.org/) - Network connecting disease-specific advocacy organizations with researchers and policymakers.
@@ -153,6 +165,7 @@ Organizations representing patients, driving research priorities, and providing 
 - [CTF](https://www.ctf.org/) - The Children's Tumor Foundation connects patients, doctors, scientists, and pharma to drive treatments for neurofibromatosis or schwannomatosis.
 - [GFF](https://gilbertfamilyfoundation.org/curing-neurofibromatosis/) - The Gilbert Family Foundation supports bold research initiatives that are accelerating a cure to neurofibromatosis (NF).
 - [NTAP](https://www.n-tap.org/) - The Neurofibromatosis Therapeutic Acceleration Program leads and funds breakthrough research to accelerate treatment options for NF1-related plexiform and cutaneous neurofibromas.
+- [Rare Disease UK](http://www.raredisease.org.uk/) - National campaign by Genetic Alliance UK representing and uniting the rare disease community across the United Kingdom.
 
 ## Contributing
 
